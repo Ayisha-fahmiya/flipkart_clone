@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field
+
 import 'package:carousel_indicator/carousel_indicator.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flipkart_clone/constants/colors.dart';
@@ -192,7 +194,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         );
-        break;
+
       case 1:
         return ListView(
           children: [
@@ -316,7 +318,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         );
-        break;
+
       case 2:
         return Scaffold(
           backgroundColor: Color(0xfff1f2f4),
@@ -418,7 +420,7 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         );
-        break;
+
       case 3:
         FlutterStatusbarcolor.setStatusBarColor(Colors.transparent);
         return Scaffold(
@@ -462,7 +464,7 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         );
-        break;
+
       case 4:
         return const Scaffold(
           backgroundColor: Color(0xfff2f3f5),
@@ -482,10 +484,9 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         );
-        break;
+
       default:
         return Container(color: Colors.white);
-        break;
     }
   }
 
